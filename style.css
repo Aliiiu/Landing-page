@@ -251,6 +251,7 @@ background-color: #F98F75;
 .footer-btn {
     background-color: white;
     color: #f25f3a;
+    border: 0px;
     padding: 10px 25px;
     border-radius: 25px;
     font-weight: bolder;
