@@ -23,12 +23,14 @@ $('.slider').slick({
 
 let mainListDiv = document.getElementById("navList");
 let mediaButton = document.getElementById("menu-toggle");
+let body = document.querySelector('body');
 
 mediaButton.onclick = function () {
+  "use strict";
     
-    "use strict";
-    
-    mainListDiv.classList.toggle("show_list");
-    mediaButton.classList.toggle("active");
+  mainListDiv.classList.toggle("show_list");
+  mediaButton.classList.toggle("active");
+  // body.style.backgroundImage = 'linear-gradient(to bottom, ' + '#fff' + ', ' + '#000' + ')'
+  // body.style.transition = ' 0.4s'
     
 };
